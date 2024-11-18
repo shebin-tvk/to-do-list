@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background: linear-gradient(135deg, #3203a9, #90bafc);
+    background: #6c3be9;
 }
 
 .col-1-1{
@@ -27,18 +27,30 @@ body{
     background-color: #90bafc;
 }
 
+#taskInput{
+    min-width: 170px;
+    min-height: 25px;
+    border-radius: 5px;
+    border: solid 1px;
+}
+
+button{
+    min-width: 80px;
+    min-height: 29px;
+    border-radius: 5px;
+    border: solid 1px;
+}
+
 .row-3{
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    gap: 10px;
-    margin-top: 10px;
+    
+    margin-bottom: 10px;
 }
 
 .List{
-    display: flex;
-    justify-content: center;
     padding: 20px;
     border-radius: 15px;
     text-align: center;
+    margin-bottom: 10px;
+    max-width: 290px;
+    margin: 10px;
 }
